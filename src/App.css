@@ -1,4 +1,18 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Dangrek&family=Itim&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-itim: "Itim", sans-serif; 
+}
+
+/* #vocab_file::-webkit-file-upload-button {
+  background-color: blue;
+  border-radius: 5px;
+  padding: 5px;
+
+} */
+
+/* .App {
   text-align: center;
 }
 
@@ -39,4 +53,4 @@
 
 button {
   font-size: calc(10px + 2vmin);
-}
+} */
