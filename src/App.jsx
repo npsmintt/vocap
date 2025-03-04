@@ -103,11 +103,12 @@ const App = () => {
 
   return (
     <>
-    <div className='font-itim box-border flex w-full h-screen item-center'>
-      <div className='w-1/2 bg-amber-100 flex flex-col justify-center items-center'>
+    <div className={`font-itim box-border flex w-screen h-screen item-center overflow-hidden 
+                      ${vocab_file ? 'max-sm:block' : ''}`}>
+      <div className={`w-1/2 bg-amber-100 flex flex-col justify-center items-center max-sm:w-full ${vocab_file ? 'max-sm:py-5 max-sm:h-2/5' : ''}`}>
         <div className='mb-5 w-full items-center flex flex-col'>
-          <div className='w-lg text-center'>
-            <p className='font-bold text-4xl mb-3'>Let's create your own worksheet for vocabulary!</p>
+          <div className='w-lg text-center max-sm:w-96'>
+            <p className='font-bold text-4xl mb-3 max-sm:text-2xl'>Let's create your own worksheet for vocabulary!</p>
             <p className='mb-5'>use the provided template and upload the file</p>
           </div>
           <div>
@@ -117,7 +118,7 @@ const App = () => {
             </button>
           </a>
         </div>
-        <hr className="w-96 h-0.5 mx-auto my-4 border-0 rounded-sm md:my-10 bg-gray-700" />
+        <hr className="w-96 h-0.5 mx-auto my-4 border-0 rounded-sm md:my-10 bg-gray-700 max-sm:w-80" />
         <div className="flex items-center gap-2">
           <label htmlFor="vocab_file" className="bg-white px-3 py-1 rounded-md border-1 border-gray-400 cursor-pointer hover:bg-gray-100 transition-colors">
             Choose File
@@ -157,10 +158,13 @@ const App = () => {
           </button>
         </div>
       </div>
-      <div className='w-1/2 bg-amber-200 pt-12 items-center'>
+      <div className={`w-1/2 bg-amber-200 pt-12 items-center max-sm:w-auto 
+                        ${vocab_file ? 'max-sm:py-5 max-sm:h-3/5 max-sm:' : ''} 
+                        flex justify-center flex-col`}>
         {!vocab_file ?
           <label htmlFor="vocab_file"
-            className='text-4xl font-bold text-white border-dashed border-4 rounded-3xl h-13/14 w-3/4 justify-center cursor-pointer justify-self-center flex items-center'
+            className='text-4xl font-bold text-white border-dashed border-4 rounded-3xl h-13/14 w-3/4 justify-center cursor-pointer justify-self-center flex items-center
+                      max-sm:w-0 max-sm:hidden'
             onClick={handleFileChagne}>
               Upload file to begin!
           </label> 
