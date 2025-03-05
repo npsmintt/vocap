@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  ![image](https://github.com/user-attachments/assets/6d486087-cfb6-4698-8cfa-3b7635e837b8)
+  <img src="https://github.com/user-attachments/assets/6d486087-cfb6-4698-8cfa-3b7635e837b8">
 </p>
 
 <p align="center">
