@@ -1,88 +1,32 @@
 <h1 align="center">
-  Vite Template React
+  Create your own vocabulary worksheet with Vocab!
 </h1>
 
 <p align="center">
-  <a href="https://github.com/SafdarJamal/vite-template-react/releases">
-    <img src="https://img.shields.io/github/v/release/SafdarJamal/vite-template-react" alt="GitHub Release (latest by date)" />
-  </a>
-  <a href="https://github.com/SafdarJamal/vite-template-react/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/SafdarJamal/vite-template-react" alt="License" />
-  </a>
+  ![image](https://github.com/user-attachments/assets/6d486087-cfb6-4698-8cfa-3b7635e837b8)
 </p>
 
 <p align="center">
-    A <a href="https://vitejs.dev">Vite</a> + <a href="https://react.dev">React</a> starter template.
+    Demo link: <a href="https://npsmintt.github.io/vocap/">https://npsmintt.github.io/vocap/</a>
 </p>
 
-![Vite Template React](https://github.com/SafdarJamal/vite-template-react/assets/48409548/4b1eb99e-01b8-4752-91c0-76930e7948c1)
+## Description
 
-## Folder Structure
+This project aims to create a worksheet for vocabulary. It is useful for teachers or students who want to practice vocabulary writing
+Note: currently support Japanese and Chinese vocabulary.
 
-No configuration or complicated folder structures, just the files you need to build your app:
+### How to use
 
-```
-vite-template-react
-├── node_modules
-├── public
-│   ├── favicon.svg
-│   └── robots.txt
-└── src
-    ├── App.css
-    ├── App.jsx
-    ├── App.test.jsx
-    ├── index.css
-    ├── index.jsx
-    └── logo.svg
-    └── setupTests.js
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-├── vite.config.js
-```
+1. Download the csv template
+2. Add your vocabulary: word, pronunciation, translation
+3. Save the file as csv
+4. Upload the file
+5. Increase number of row as needed (default is 1)
+6. Download worksheet to get the final output
 
-## Development
+## Tools
 
-To get a local copy of the code, clone it using git:
-
-```
-git clone https://github.com/SafdarJamal/vite-template-react.git
-cd vite-template-react
-```
-
-Make it your own:
-
-```
-rm -rf .git && git init && npm init
-git add .
-git commit -m "Initial commit"
-```
-
-Install dependencies:
-
-```
-npm i
-```
-
-Now, you can start a local web server by running:
-
-```
-npm start
-```
-
-And then open http://localhost:3000 to view it in the browser.
-
-#### Available Scripts
-
-In this project, you can run the following scripts:
-
-| Script        | Description                                             |
-| ------------- | ------------------------------------------------------- |
-| npm start     | Runs the app in the development mode.                   |
-| npm test      | Launches the test runner in the interactive watch mode. |
-| npm run build | Builds the app for production to the `dist` folder.     |
-| npm run serve | Serves the production build from the `dist` folder.     |
+ReactJS, Vite, TailwindCSS, jsPDF
 
 ## Credits
 
