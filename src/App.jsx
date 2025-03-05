@@ -112,7 +112,7 @@ const App = () => {
             <p className='mb-5'>use the provided template and upload the file</p>
           </div>
           <div>
-          <a href="/vocab_template.csv" download="vocab_template.csv">
+          <a href="/vocap/vocab_template.csv" download="vocab_template.csv">
             <button type="button" className="text-sm px-4 py-2 text-white bg-blue-400 rounded-md shadow-sm cursor-pointer hover:bg-blue-500 transition-colors">
                 Download template <FontAwesomeIcon icon={faDownload} />
             </button>
